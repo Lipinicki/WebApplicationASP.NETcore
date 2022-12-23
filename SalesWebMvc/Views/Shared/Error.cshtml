@@ -3,7 +3,7 @@
 	ViewData["Title"] = "Error";
 }
 
-<h2 class="text-danger">@ViewData["Title"]</h2>
+<h2><span class="text-danger">@ViewData["Title"]</span></h2>
 <h3 class="text-danger">@Model.Message</h3>
 
 @if (Model.ShowRequestId)
